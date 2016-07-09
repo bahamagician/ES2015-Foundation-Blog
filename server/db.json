@@ -1,0 +1,36 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "In hybrid moments, give me a moment",
+      "lastReply": "1997-07-15",
+      "content": "Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus."
+    },
+    {
+      "id": 2,
+      "title": "Sound system gonna bring me back up",
+      "lastReply": "1991-07-01",
+      "content": "Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus."
+    },
+    {
+      "id": 3,
+      "title": "When I'm out walkin', I strut my stuff",
+      "lastReply": "1983-04-19",
+      "content": "Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus."
+    }
+  ],
+  "activeUsers": [
+    {
+      "name": "Sam",
+      "avatar": "http://placehold.it/20x20"
+    },
+    {
+      "name": "Tyler",
+      "avatar": "http://placehold.it/20x20"
+    },
+    {
+      "name": "Brook",
+      "avatar": "http://placehold.it/20x20"
+    }
+  ]
+}

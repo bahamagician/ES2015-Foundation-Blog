@@ -3,10 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <title>My JS App</title>
-  <link rel="stylesheet" href="/css/app.css" media="screen" charset="utf-8">
+  <link rel="stylesheet" href="css/app.css" media="screen" charset="utf-8">
 </head>
 <body>
-    <div id="app"></div>
-    <script src="js/bundle.js" charset="utf-8"></script>
+  <div class="top-bar">
+    <div class="top-bar-left">
+      <ul class="menu">
+        <li class="menu-text">Yeti Agency</li>
+      </ul>
+    </div>
+    <div class="top-bar-right">
+      <ul class="menu">
+        <li><a href="#">One</a></li>
+        <li><a href="#">Two</a></li>
+        <li><a href="#">Three</a></li>
+        <li><a href="#">Four</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="callout large primary">
+    <div class="row column text-center">
+      <h1>Our Blog</h1>
+    </div>
+  </div>
+  <div class="row" id="content">
+    <div class="medium-8 columns container"></div>
+    <div class="medium-4 columns sidebar-content "></div>
+  </div>
+  <div class="row column">
+    <ul class="pagination" role="navigation" aria-label="Pagination">
+      <li class="disabled">Previous</li>
+      <li class="current"><span class="show-for-sr">You're on page</span> 1</li>
+      <li><a href="#" aria-label="Page 2">2</a></li>
+      <li><a href="#" aria-label="Page 3">3</a></li>
+      <li><a href="#" aria-label="Page 4">4</a></li>
+      <li class="ellipsis"></li>
+      <li><a href="#" aria-label="Page 12">12</a></li>
+      <li><a href="#" aria-label="Page 13">13</a></li>
+      <li><a href="#" aria-label="Next page">Next</a></li>
+    </ul>
+  </div>
+  <script src="js/app.js" charset="utf-8"></script>
 </body>
 </html>

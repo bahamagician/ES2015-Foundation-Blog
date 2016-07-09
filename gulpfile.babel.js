@@ -8,6 +8,7 @@ import browserify from "browserify";
 import source from "vinyl-source-stream";
 import yaml     from 'js-yaml';
 import fs       from 'fs';
+import concat from 'gulp-concat';
 
 
 //Load config variables from config file
@@ -29,27 +30,20 @@ function server(done) {
   done();
 }
 
-//Transpile APP JS
+//Transpile & Bundle APP JS
 function transpile(){
   return browserify('src/js/app.js')
   .transform("babelify")
   .bundle()
   .pipe(source("bundle.js"))
-  .pipe(gulp.dest("dist/js"));
+  .pipe(gulp.dest("src/js"));
 }
 
-//Transpile Foundation JS
-function foundationJS() {
+function concatJS() {
   return gulp.src(PATHS.javascript)
-      .pipe($.sourcemaps.init())
-      .pipe($.babel())
-      .pipe($.concat('foundation.js'))
-      .pipe($.if(PRODUCTION, $.uglify()
-        .on('error', e => { console.log(e); })
-      ))
-      .pipe(gulp.dest('dist/js'));
+  .pipe(concat('app.js'))
+  .pipe(gulp.dest('dist/js'));
 }
-
 
 //Transpile SASS
 function css(){
@@ -86,5 +80,5 @@ function watch() {
 
 // Default Task
 gulp.task('default',
-    gulp.series(css, transpile, foundationJS, html, server, watch)
+    gulp.series(css, transpile, concatJS, html, server, watch)
 );
