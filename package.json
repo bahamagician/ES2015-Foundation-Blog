@@ -13,8 +13,9 @@
   "author": "",
   "license": "ISC",
   "homepage": "https://bitbucket.org/mwfgroup/softmoc.com-f6#readme",
-  "devDependencies": {
+  "devDependencies": {    
     "babel-preset-es2015": "^6.9.0",
+    "babel-register": "^6.9.0",
     "babelify": "^7.3.0",
     "browser-sync": "^2.12.8",
     "browserify": "^13.0.1",
