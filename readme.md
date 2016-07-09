@@ -2,9 +2,9 @@
 
 This is just a toy project for myself.  I had three major issues I wanted to address:
 
--I wanted to get a build system together that combined [browserify](https://www.npmjs.com/package/browserify) and [Foundation 6](https://github.com/zurb/foundation-sites)
--I wanted to get a chance to play with the [NPM JSON Server](https://www.npmjs.com/package/json-server) for generating a fake JSON Rest API
--I *REALLY* wanted to test out using the ES2015 in parsing data from a JSON feed to populate a page
+* I wanted to get a build system together that combined [browserify](https://www.npmjs.com/package/browserify) and [Foundation 6](https://github.com/zurb/foundation-sites)
+* I wanted to get a chance to play with the [NPM JSON Server](https://www.npmjs.com/package/json-server) for generating a fake JSON Rest API
+* I _REALLY_ wanted to test out using the ES2015 in parsing data from a JSON feed to populate a page without using a front end framework such as Angular or React.
 
 To get started run
 
