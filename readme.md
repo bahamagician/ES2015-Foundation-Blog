@@ -9,7 +9,9 @@ This is just a toy project for myself.  I had three major issues I wanted to add
 To get started run
 
 `npm install`
+
 `bower install`
+
 `gulp`
 
 ##Notes:
