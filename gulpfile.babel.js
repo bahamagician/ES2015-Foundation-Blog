@@ -24,7 +24,7 @@ const { PATHS } = loadConfig();
 function server(done) {
   browser.init({
     server: {
-      baseDir: "./"
+      baseDir: "dist"
     }
   });
   done();
