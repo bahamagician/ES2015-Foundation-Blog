@@ -18,5 +18,13 @@ To get started run
 
 I used [NPM JSON Server](https://www.npmjs.com/package/json-server) and set it to watch the db.json file within the server directory.  You have to start the server in its own terminal window before running the gulp command on the project.  Otherwise, worlds collide and the json server explodes.  Just kidding....but seriously...
 
-I'm using Gulp 4 in its "pre-released" version so I had to install the gulp 4 CLI globally using
+Here are instructions on how to do that:
+
+`$ npm install -g json-server`
+
+`$ cd server/`
+
+`$ json-server --watch db.json`
+
+I've hopefully fixed this in the revised package.json file but in previous versions because I'm using Gulp 4 in its "pre-released" version I had to install the gulp 4 CLI globally using
 `npm install -g "gulpjs/gulp-cli#4.0"`
